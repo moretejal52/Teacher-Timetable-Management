@@ -1,0 +1,67 @@
+/* TeacherRegistrationForm.css */
+.h3{
+  margin-left: 10px;
+  text-align: left;
+}
+body {
+
+    background-image: url('T1.webp');
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    height: 50%;
+    margin-right: 400px;
+    opacity: 0.90;
+  }
+  
+  .form-container {
+    width: 400px;
+    padding: 5px;
+    background-color:black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+  }
+  
+  
+  .form-label {
+    color:whitesmoke;
+    border: black;
+    text-decoration: solid;
+    text-shadow: #45a049;
+    font-size: larger;
+    
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 9px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-bottom: 1px;
+  }
+  
+  .button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display:flex;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  

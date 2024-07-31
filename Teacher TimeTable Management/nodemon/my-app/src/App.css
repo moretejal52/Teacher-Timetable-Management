@@ -1,0 +1,73 @@
+/* Reset some default styles for ul and li */
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Navbar styles */
+nav {
+  font-size: larger;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+ 
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+nav li:hover {
+  text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px;
+  boxShadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  display: flex;
+  
+}
+
+.card img {
+  width: 300px;
+  height: 400px;
+  
+}
+
+.card-info {
+  padding: 20px;
+}
+
+.card-info h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.card-info p {
+  margin: 10px 0;
+  color: #666;
+}

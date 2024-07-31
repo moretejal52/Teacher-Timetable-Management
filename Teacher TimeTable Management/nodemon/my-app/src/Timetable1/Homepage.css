@@ -1,0 +1,44 @@
+
+
+.carousel-image-container {
+    position: relative;
+  }
+  
+  .carousel-image-container img {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 50%; /* Adjust the width as needed */
+    height: 100%;
+    margin-top: 50px;
+  }
+  /* Homepage.css */
+
+.carousel-content {
+    position: relative;
+  }
+  
+  .text-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: right;
+    padding: 20px; /* Adjust the padding as needed */
+    color: black;
+  }
+
+
+.carousel-content {
+    position: relative;
+  }
+  
+  .text-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: right;
+    padding: 20px; /* Adjust the padding as needed */
+    color: black;
+  }
+    
+  

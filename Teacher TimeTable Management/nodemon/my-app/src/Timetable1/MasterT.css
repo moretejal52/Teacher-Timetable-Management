@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    margin-right: 600px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  thead th,
+  tbody td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  thead th {
+    background-color: #f2f2f2;
+  }
+  
+  tbody td {
+    background-color: #fff;
+  }
+  
+  /* Optional: Add some styling for breaks */
+  tbody tr.break-row td {
+    background-color: #e0e0e0;
+    font-style: italic;
+    color: #777;
+  }
+  
+  /* Optional: Highlight class details */
+  tbody td:hover {
+    background-color: #dff0d8;
+  }
+  
